@@ -1,0 +1,17 @@
+{
+  "name": "doloreearum",
+  "workspaces": [
+    "packages/types",
+    "packages/tools"
+  ],
+  "lint-staged": {
+    "**/*.{js,ts}": "eslint --cache --fix",
+    "**/*.{js,ts,md}": "prettier --write"
+  },
+  "author": "ToreyKuphal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RahulMcDermott/doloreearum.git"
+  },
+  "version": "1.0.0"
+}
